@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aditi Bhadoria</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://aditibhadoria.github.io/cleanfolio-minimal" class="link"
+          >AB.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Aditi Bhadoria.</span></h1>
+        <h2 class="about__role">A Computer Science Engineering Student.</h2>
+        <p class="about__desc">
+          I'm a Computer Science Engineering student with a passion for coding,
+           development, and design. Proficient in both front-end and back-end development,
+            I enjoy creating user-centric applications that blend innovation with functionality. 
+            With a strong foundation in machine learning, I strive to push the boundaries of 
+            technology and make a meaningful impact through my work.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1kiTshqmZFKKF7oC6lFmtuq3uweEiy4kX/view?usp=sharing">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/HEYADITI1"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/aditi-bhadoria-5432a4207"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Face Recognition Attendance Management System</h3>
+            <p class="project__description">
+              The Face Recognition Attendance Management System is an innovative solution 
+              designed to streamline the process of recording attendance in various settings,
+               such as classrooms, workplaces, or events. Utilizing machine learning 
+               algorithms and computer vision techniques, the system automates attendance 
+               tracking by recognizing individuals' faces in real-time.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Machine Learning</li>
+              <li class="project__stack-item">LBPH</li>
+            </ul>
+
+            <a
+              href="https://github.com/HEYADITI1/FR"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Intrusion Detection System</h3>
+            <p class="project__description">
+              The Intrusion Detection System (IDS) project is a powerful tool designed to 
+              enhance cybersecurity by detecting and classifying network connections as 
+              either "good" or "bad" based on machine learning algorithms. Built using 
+              Python and leveraging popular ML algorithms like Decision Trees,
+               K-Nearest Neighbors (KNN), and Random Forest, the system provides 
+               real-time analysis of network traffic to identify potential threats and anomalies.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Jupyter Notebook</li>
+              <li class="project__stack-item">ML</li>
+            </ul>
+
+            <a
+              href="https://github.com/HEYADITI1/IDS"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Healix</h3>
+            <p class="project__description">
+              As a contributor to the Healix project, I proposed the integration of 
+              human interaction alongside AI-based therapy to enhance the user experience 
+              and address the need for human connection in therapy sessions. 
+              Recognizing that many individuals feel more comfortable and understood 
+              when speaking to another human being, I advocated for the inclusion of 
+              human therapists within the Healix platform.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">AI</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com/HEYADITI1"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Macine Learning</li>
+          <li class="skills__list-item btn btn--plain">Cyber Security</li>
+          <li class="skills__list-item btn btn--plain">DSA</li>
+          <li class="skills__list-item btn btn--plain">Web Development</li>
+          <li class="skills__list-item btn btn--plain">Mysql</li>
+          <li class="skills__list-item btn btn--plain">Cryptography</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:aditi88599@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/HEYADITI1"
+        class="link footer__link"
+      >
+        Created By Aditi Bhadoria
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
